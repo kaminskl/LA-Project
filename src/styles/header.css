@@ -1,0 +1,22 @@
+.menu {
+	float:right;
+	padding:40px 19px 0 0
+}
+.menu li {
+	float:left;
+	padding-right:28px
+}
+.menu .end {
+	padding-right:0
+}
+.menu li a {
+	display:block;
+	font-size:16px;
+	color:rgb(95, 75, 75);
+	/* text-decoration:none; */
+	background:url(../images/menu_marker.png) 0 6px no-repeat;
+	padding-left:20px
+}
+.menu li a:hover, .menu #active a {
+	color:#13c5ff
+}
