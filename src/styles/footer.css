@@ -1,10 +1,21 @@
 .page-footer {
-  background-color: var(--black);
-  color: var(--white);
-  padding: var(--med-size);
-  border-top: var(--tiny-size) solid var(--white);
+  background-color: black; /* var(--black); */
+  color:white ;
+}
+.page-footer a {
+  color: green;
 }
 
-.page-footer a {
-  color: var(--medium-green);
+footer {
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  max-height: 15%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer ul li { 
+color: blue;
 }

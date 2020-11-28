@@ -8,9 +8,11 @@ export default function Footer() {
         <h4>Contact Us</h4>
         <ul>
           <li>
-            <a href="mailto:LoriAnn@supergirl.com">LoriAnn@supergirl.com</a>
+          LoriAnn@hotmail.com
           </li>
-  				<li><a href={`"tel:+01-${phoneNumber}"`}>{phoneNumber}</a></li>
+          <li>
+          {phoneNumber}
+            </li>
         </ul>
       </footer>
     )
