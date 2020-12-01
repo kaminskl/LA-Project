@@ -16,14 +16,17 @@ export default function About() {
                         
                     </div>
                     <div class="columnRight">
-                    <div ><p > <strong> My name is Lori-Ann. My motto has become my way of living a perfect life. 
-                            My undertaking is to express all my feelings and dreams in an art. </strong> </p>
+                    <div ><p > <em> My name is Lori-Ann. My motto has become my way of living a perfect life. 
+                            My undertaking is to express all my feelings and dreams in an art. </em> </p>
                         </div>
-                        <p> In my art I use my imagination to inspire thoughtful moments and positive reflection on live and everyday emotions. Please allow me to extend your living space and add a secret influence of an art. 
-                            An art that will add a smile, reflection and meaning to otherwise very simple and colorless life.. </p>
-                        <p> I will spend time with you asking about your color and arrangement preferences and together we will create a piece that initiated right from your own artistic thoughts. 
-                            Let me express your own feelings in a beautiful modern composition that will embrace your dreams, passion and maybe a secret awaiting to be discovered. . </p>
-                        <p> I am a local artist and I promise you a unique, just for you, modern arrangement that will complement your own and unique living space. </p>
+
+                        <p><em> In my art I use my imagination to inspire thoughtful moments and positive reflection on live and everyday emotions. Please allow me to extend your living space and add a secret influence of an art. 
+                            An art that will add a smile, reflection and meaning to otherwise very simple and colorless life.</em> </p>
+                        
+                        <p><em> I will spend time with you asking about your color and arrangement preferences and together we will create a piece that initiated right from your own artistic thoughts. 
+                            Let me express your own feelings in a beautiful modern composition that will embrace your dreams, passion and maybe a secret awaiting to be discovered.</em></p>
+                        
+                        <p><em> I am a local artist and I promise you a unique, just for you, modern arrangement that will complement your own and unique living space. </em></p>
                     
                     </div>
                 </div>

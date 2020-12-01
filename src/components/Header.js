@@ -7,6 +7,9 @@ export default function Header(props) {
   return (    
       <header className="page-header">         
              <div>
+          
+            
+             
                <ul>
                <Nav>
                 <Nav.Link href="/">Home </Nav.Link>
@@ -14,6 +17,7 @@ export default function Header(props) {
                 <Nav.Link href="/Portfolio"> Portfolio </Nav.Link>
                 <Nav.Link href="/Philosophy"> Philosophy </Nav.Link>
                 <Nav.Link href="/Contact"> Contact </Nav.Link>
+
               </Nav>  
              </ul>     
             </div>

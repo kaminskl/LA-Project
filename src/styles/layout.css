@@ -10,9 +10,9 @@ body {
 	width:916px;
 }
 .container {
-  max-width: 1080px;
+  /* max-width: 1080px; */
   margin: 0 auto;
-
+  
 
   /* display: grid;
   grid-template-rows: auto 1fr auto;
@@ -30,17 +30,31 @@ h2 {
 	line-height:1.2em;
 	color:black;
 	padding:1px 0 17px 10px;
-	letter-spacing:-1px
+  letter-spacing:-1px;
+  font:26px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  text-align: center;
 }
 h2 span {
 	color:#13c5ff
 }
 
 .wrapper {
-	width:100%;
-	overflow:hidden
+	width:60%;
+padding:0 20%;
+  overflow:hidden;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  line-height:20px;
+  
 }
 
+
+.philosophyPage{
+  margin:0;
+  padding:0;
+  text-align: center; 
+}
 /* .image_left_align{
   float:left;  
   
@@ -65,7 +79,8 @@ h2 span {
   height: max-content;
   width: 75%;
   text-align: justify;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  
   
  
 }
@@ -75,16 +90,32 @@ h2 span {
   padding: 0px;
   height: max-content;
   width: 25%;
-  text-align: center;
+  text-align: right;
   margin:0px;
   font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   
 }
 
 .row{
+  max-width: 100%;
   display: table;
   clear:both;
+  /* align-content: center;
+  display: flex;
+  justify-content: center; */
+  letter-spacing: 1px;
+  margin: 20px 0;
+  padding: 5px;
+  width: 70%;
+  margin: 0 auto;
+  
+
+
+
+
+
+
 }
 
 /* 

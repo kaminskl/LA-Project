@@ -1,14 +1,28 @@
 .page-header {
 	background-color: black; 
 	color: white;
-	width: 100%;	
+	width: 100%;
+	max-width: 100%;
+	
 	clear: both;
 	text-align:right;
 	background-size: auto;
 	top:0;
 	left:0;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	/* position: fixed; */
+	max-height: 15%;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	/* position: relative; */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 300px 100px;
+	
+	
+    /* float: left;
+    margin-left: 0;
+    width: 100%;
+	display: block; */
+	
+
   }
    
 /* this is header links css */
@@ -25,3 +39,11 @@
   a:hover, a:active {
 	background-color: purple;
   }
+
+  .logo {
+	display:block;
+	background:url(../images/logo.png) 0 0 no-repeat;
+	width:276px;
+	height:94px;
+	text-indent:-9999px
+}
