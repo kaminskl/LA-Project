@@ -29,57 +29,121 @@ class Gallery extends Component {
              // class="gallery-area"
              <section>
                
-                    <div className="rowPorfolio">
-                        <div class="columnPortfolio">                     
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 0})}}>
-                                <img src='../bimg1.jpg' alt="gallery" width="350" height="250" /></a>
-                        </div>
-
-                        <div className="columnPortfolio">
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 1})}}>
-                                <img src='../bimg2.jpg' alt="gallery" width="350" height="250"/></a>
-                        </div>
-                        
-                        <div className="columnPortfolio">
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 2})}}>
-                                <img src='../bimg3.jpg' alt="gallery" width="350" height="250"/></a>
-                        </div>
-
-                        </div>
-
-                    <div class="rowPorfolio">
-                         
-                        <div className="columnPortfolio">
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 3})}}>
-                                <img src='../bimg4.jpg' alt="gallery" width="350" height="250"/></a>
-                        </div>
-                            
-                        <div className="columnPortfolio">                     
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 4})}}>
-                                <img src='../bimg5.jpg' alt="gallery" width="350" height="250" /></a>
-                        </div>
-
-                        <div className="columnPortfolio">
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 5})}}>
-                                <img src='../bimg6.jpg' alt="gallery" width="350" height="250"/></a>
-                        </div>
-
-                        </div>
+               <div>
+           
+           <div className="container">
+             
+                <div className="row">
                     
-                    <div class="rowPorfolio">
 
-                        
-                        <div className="columnPortfolio">
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 6})}}>
-                                <img src='../bimg7.jpg' alt="gallery" width="350" height="250"/></a>
-                        </div>
 
-                        
-                        <div className="columnPortfolio">
-                            <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 7})}}>
-                                <img src='../bimg8.jpg' alt="gallery" width="350" height="250"/></a>
-                        </div>  
-                    </div>
+
+<div className="rowPorfolio">
+<div class="columnPortfolio">                     
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 0})}}>
+
+            <figure>
+            <img src='../bimg1.jpg' alt="gallery" width="350" height="250" />
+            <figcaption>Fig. Description/Caption</figcaption>
+            </figure>
+        
+    </a>
+</div>
+
+<div className="columnPortfolio">
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 1})}}>
+        
+        <figure>
+            <img src='../bimg2.jpg' alt="gallery" width="350" height="250"/>
+            <figcaption>Fig. Description/Caption</figcaption>
+        </figure>
+    </a>
+</div>
+
+<div className="columnPortfolio">
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 2})}}>
+       
+        <figure>
+        <img src='../bimg3.jpg' alt="gallery" width="350" height="250"/>
+        <figcaption>Fig. Description/Caption</figcaption>
+        </figure>
+    </a>
+</div>
+
+</div>
+
+<div class="rowPorfolio">
+ 
+<div className="columnPortfolio">
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 3})}}>
+        
+        <figure>
+            <img src='../bimg4.jpg' alt="gallery" width="350" height="250"/>
+            <figcaption>Fig. Description/Caption</figcaption>
+        </figure>
+    </a>
+</div>
+    
+<div className="columnPortfolio">                     
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 4})}}>
+        
+        <figure>
+            <img src='../bimg5.jpg' alt="gallery" width="350" height="250" />
+            <figcaption>Fig. Description/Caption</figcaption>
+        </figure>
+    </a>
+</div>
+
+<div className="columnPortfolio">
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 5})}}>
+        
+        <figure>
+            <img src='../bimg6.jpg' alt="gallery" width="350" height="250"/>
+            <figcaption>Fig. Description/Caption</figcaption>
+        </figure>
+    </a>
+</div>
+
+</div>
+
+<div class="rowPorfolio">
+
+
+<div className="columnPortfolio">
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 6})}}>
+        
+        <figure>
+            <img src='../bimg7.jpg' alt="gallery" width="350" height="250"/>
+            <figcaption>Fig. Description/Caption</figcaption>
+        </figure>
+    </a>
+</div>
+
+
+<div className="columnPortfolio">
+    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 7})}}>
+        
+
+        <figure>
+            <img src='../bimg8.jpg' alt="gallery" width="350" height="250"/>
+            <figcaption>Fig. Description/Caption</figcaption>
+        </figure>
+    </a>
+</div>  
+</div>
+
+
+
+
+
+
+</div>
+            
+            </div>
+            {/* 
+*/} 
+            
+        </div> 
 
                 {/* <img src='../bimg4.jpg' alt="gallery" width="150" height="100"/> */}
 
