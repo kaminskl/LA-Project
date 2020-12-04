@@ -11,12 +11,9 @@ import Contact from "./Contact";
 import {Nav} from "react-bootstrap";
 //import Nav from React as "nav";
 
-
-
-
 export default function App() {
   return (
-    <div className="container">  
+    <div class="container">  
    
      <Header class="page-header"/>
         <Router>         

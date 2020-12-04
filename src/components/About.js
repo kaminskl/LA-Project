@@ -4,18 +4,18 @@ export default function About() {
     return (
         <div>
            
-           <div class="container">
-               <div class="headerAboutme">
+           <div className="container">
+               <div className="headerAboutme">
                     <p>About Me</p>
                </div>
-                <div class="row">
-                    <div class="columnLeft">
+                <div className="row">
+                    <div className="columnLeft">
                         
                            
                                 <p><figure ><img src="../page2_img1.jpg" alt=""></img></figure></p>
                         
                     </div>
-                    <div class="columnRight">
+                    <div className="columnRight">
                     <div ><p > <em> My name is Lori-Ann. My motto has become my way of living a perfect life. 
                             My undertaking is to express all my feelings and dreams in an art. </em> </p>
                         </div>
