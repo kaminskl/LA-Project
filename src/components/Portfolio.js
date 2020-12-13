@@ -15,6 +15,9 @@ import '../styles/layout.css';
     '../bimg7.jpg',
     '../bimg8.jpg',
     '../bimg9.jpg',
+    '../bimg10.jpg',
+    '../bimg11.jpg',
+    '../bimg12.jpg',
   ];
 
 class Gallery extends Component {
@@ -26,151 +29,178 @@ class Gallery extends Component {
     render() {
         const { photoIndex, isOpenImage } = this.state;
         return (
-             // class="gallery-area"
-             <section>
-               
-               <div>
-           
-           <div className="container">
-             
-                <div className="row">
+        
+<section>            
+    <div className="container">             
+        <div className="row"> {/*this div centralize content*/}
+
+            {/* // first row */}
+            <div className="rowPorfolio">
+                <div className="columnPortfolio">                     
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 0})}}>
+
+                            <figure className="imgframe">
+                            <img src='../bimg1.jpg' alt="gallery" width="300" height="150" />
+                            <figcaption>Mirror reflection</figcaption>
+                            </figure>
+                        
+                    </a>
+                </div>
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 1})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg2.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Frivolous thoughts</figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 2})}}>
                     
-
-
-
-<div className="rowPorfolio">
-<div class="columnPortfolio">                     
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 0})}}>
-
-            <figure>
-            <img src='../bimg1.jpg' alt="gallery" width="350" height="250" />
-            <figcaption>Fig. Description/Caption</figcaption>
-            </figure>
-        
-    </a>
-</div>
-
-<div className="columnPortfolio">
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 1})}}>
-        
-        <figure>
-            <img src='../bimg2.jpg' alt="gallery" width="350" height="250"/>
-            <figcaption>Fig. Description/Caption</figcaption>
-        </figure>
-    </a>
-</div>
-
-<div className="columnPortfolio">
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 2})}}>
-       
-        <figure>
-        <img src='../bimg3.jpg' alt="gallery" width="350" height="250"/>
-        <figcaption>Fig. Description/Caption</figcaption>
-        </figure>
-    </a>
-</div>
-
-</div>
-
-<div class="rowPorfolio">
- 
-<div className="columnPortfolio">
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 3})}}>
-        
-        <figure>
-            <img src='../bimg4.jpg' alt="gallery" width="350" height="250"/>
-            <figcaption>Fig. Description/Caption</figcaption>
-        </figure>
-    </a>
-</div>
-    
-<div className="columnPortfolio">                     
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 4})}}>
-        
-        <figure>
-            <img src='../bimg5.jpg' alt="gallery" width="350" height="250" />
-            <figcaption>Fig. Description/Caption</figcaption>
-        </figure>
-    </a>
-</div>
-
-<div className="columnPortfolio">
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 5})}}>
-        
-        <figure>
-            <img src='../bimg6.jpg' alt="gallery" width="350" height="250"/>
-            <figcaption>Fig. Description/Caption</figcaption>
-        </figure>
-    </a>
-</div>
-
-</div>
-
-<div class="rowPorfolio">
-
-
-<div className="columnPortfolio">
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 6})}}>
-        
-        <figure>
-            <img src='../bimg7.jpg' alt="gallery" width="350" height="250"/>
-            <figcaption>Fig. Description/Caption</figcaption>
-        </figure>
-    </a>
-</div>
-
-
-<div className="columnPortfolio">
-    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 7})}}>
-        
-
-        <figure>
-            <img src='../bimg8.jpg' alt="gallery" width="350" height="250"/>
-            <figcaption>Fig. Description/Caption</figcaption>
-        </figure>
-    </a>
-</div>  
-</div>
-
-
-
-
-
-
-</div>
-            
+                        <figure className="imgframe">
+                        <img src='../bimg3.jpg' alt="gallery" width="300" height="150"/>
+                        <figcaption>Pieces</figcaption>
+                        </figure>
+                    </a>
+                </div>
             </div>
-            {/* 
-*/} 
+
+            {/* second row  */}
+            <div class="rowPorfolio">
             
-        </div> 
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 3})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg4.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Time goes by slowly</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                    
+                <div className="columnPortfolio">                     
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 4})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg5.jpg' alt="gallery" width="300" height="150" />
+                            <figcaption>Touch of style</figcaption>
+                        </figure>
+                    </a>
+                </div>
 
-                {/* <img src='../bimg4.jpg' alt="gallery" width="150" height="100"/> */}
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 5})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg6.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Simple things</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
 
-                        {isOpenImage && (
-                            <Lightbox
-                                mainSrc={images[photoIndex]}
-                                nextSrc={images[(photoIndex + 1) % images.length]}
-                                prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                                onCloseRequest={() => this.setState({ isOpenImage: false })}
-                                onMovePrevRequest={() =>
-                                this.setState({
-                                    photoIndex: (photoIndex + images.length - 1) % images.length,
-                                })
-                                }
-                                onMoveNextRequest={() =>
-                                    this.setState({
-                                        photoIndex: (photoIndex + 1) % images.length,
-                                    })
-                                }
-                            />
-                        )}
+            {/* third row */}
+            <div class="rowPorfolio">
 
-                                
-                               
-                  
-                
-            </section>
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 6})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg7.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Summer wind</figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 7})}}>
+                        
+
+                        <figure  className="imgframe">
+                            <img src='../bimg8.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Shadow</figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 8})}}>
+                        
+
+                        <figure  className="imgframe">
+                            <img src='../bimg9.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Walking on sunshine</figcaption>
+                        </figure>
+                    </a>
+                </div>  
+
+            </div>
+
+
+            {/* fourth row */}
+            <div class="rowPorfolio">
+
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 9})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg10.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Step by step</figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 10})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg11.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Two of a kind</figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div className="columnPortfolio">
+                    <a href onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true, photoIndex: 11})}}>
+                        
+                        <figure  className="imgframe">
+                            <img src='../bimg12.jpg' alt="gallery" width="300" height="150"/>
+                            <figcaption>Undo your mind</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                    
+            </div>
+
+            {isOpenImage && (
+                <Lightbox
+                    mainSrc={images[photoIndex]}
+                    nextSrc={images[(photoIndex + 1) % images.length]}
+                    prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+                    onCloseRequest={() => this.setState({ isOpenImage: false })}
+                    onMovePrevRequest={() =>
+                    this.setState({
+                        photoIndex: (photoIndex + images.length - 1) % images.length,
+                    })
+                    }
+                    onMoveNextRequest={() =>
+                        this.setState({
+                            photoIndex: (photoIndex + 1) % images.length,
+                        })
+                    }
+                />
+            )}
+
+        </div>{/*closing row   */}
+    </div>  {/*closing container   */}           
+</section>
         );
     }
 }

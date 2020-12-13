@@ -5,15 +5,15 @@ export default function Philosophy() {
     return (
 
 <div> 
-    <div class="container">
+    <div className="container">
         
 
-        <div class="row"></div>
+        <div className="row"></div>
         <h2> <strong><em>"Where the spirit does not work with the hand, there is no art" Leonardo da Vinci</em></strong></h2>
-            <div class="philosophyPage">
+            <div className="philosophyPage">
 
             
-            <div class="wrapper">
+            <div className="wrapper">
               
               <p><em>When I think of art I think of beauty. Beauty is the mystery of life. It is not in the eye it is in the mind. In our minds there is awareness of perfection. </em> </p>
               <p><em> Someone recently asked me for my ‘secrets’ when it comes to how to make an abstract painting. This question got me thinking; how do you make an abstract painting that works? Naturally that’s partly down to the beholder, but for me there are definitely things that makes an abstract painting feel more successful.</em> </p>
