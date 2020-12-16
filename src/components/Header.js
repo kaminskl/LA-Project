@@ -1,35 +1,25 @@
-import React from "react";
-// import { Link } from "react-router-dom";
+import React, { Component } from "react";
 import {Nav} from "react-bootstrap";
-import {logo} from "./logo";
+import {logo} from "../images/logo.png";
 
 export default function Header(props) {
  
-  return (    
-      <header className="page-header">         
-             <div>
-             
-            
-             {/* create image element  */}
-      <nav>
-          
+  return (  
+<header className="page-header">        
+  <div>
 
-      </nav>
-     
-               <ul> 
-
-               {/* <article id="logo"></article> */}
-                {/* <Nav.Link  component = {logo}> </Nav.Link> */}
-                <Nav.Link  href="/"> Home </Nav.Link>
-                <Nav.Link href="/About"> About </Nav.Link>
-                <Nav.Link href="/Portfolio"> Portfolio </Nav.Link>
-                <Nav.Link href="/Philosophy"> Philosophy </Nav.Link>
-                <Nav.Link href="/Contact"> Contact </Nav.Link>
-
-             
-             </ul>     
-            </div>
-       </header>
+    <nav>
+    </nav>
+          <ul> 
+            <img src="../logo.png" alt="logo" className="logo" ></img>
+            <Nav.Link href="/"> Home </Nav.Link>
+            <Nav.Link href="/About"> About </Nav.Link>
+            <Nav.Link href="/Portfolio"> Portfolio </Nav.Link>
+            <Nav.Link href="/Philosophy"> Philosophy </Nav.Link>
+            <Nav.Link href="/Contact"> Contact </Nav.Link>
+          </ul>     
+      </div>
+</header>
 
   );
 }

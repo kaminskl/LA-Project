@@ -1,10 +1,7 @@
 import React from 'react';
 import  { Component } from 'react';
-//import ReactDOM from 'react';
 const hellos = ['Hola', 'Salut', 'Hallo', 'Ciao', 'Ahoj', 'Annyeong-haseyo', 'Aloha', 'Howdy', 'Ni Hao', 'Konnichiwa']
 
-///import PropTypes from 'prop-types';
-//import moment from 'moment';
 export class Welcome extends Component {
 
     constructor(props) {

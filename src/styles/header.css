@@ -2,27 +2,12 @@
 	background-color: black; 
 	color: white;
 	width: 100%;
-
-	
 	clear: both;
-	text-align:right;
-	/* background-size: auto; */
-	/* top:0;
-	left:0; */
+	text-align:center;
 	max-height: 15%;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	/* position: relative;  */
-	 background-size: contain;
-	/*background-repeat: no-repeat; */
-	/* background-size: 300px 100px; */
+	background-size: contain;
 	
-	
-    /* float: left;
-    margin-left: 0;
-    width: 100%;
-	display: block; */
-	
-
   }
    
 /* this is header links css */
@@ -33,20 +18,18 @@
 	text-align: right;
 	text-decoration: none;
 	display: inline-block;
-
+	/* background-image: url(../images/logo.png); */
   }
   
   a:hover, a:active {
-	background-color: purple;
+	/* background : purple; */
+	color:purple;
   }
 
   #logo {
 	display:flex;
 	background:url(../images/logo.png) 0 0 no-repeat;
 	text-align: center;
-	/* width:276px;
-	height:94px; */
-
 	widows: 230px;
 	height:80px;
 	/* text-indent:-9999px */

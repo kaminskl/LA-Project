@@ -9,9 +9,6 @@ import About from "./About";
 import Philosophy from "./Philosophy";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
-// import {Nav} from "react-bootstrap";
-// import CarouselComponent from "./carousel";
-//import Nav from React as "nav";
 
 export default function App() {
   return (

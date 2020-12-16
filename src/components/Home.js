@@ -1,16 +1,12 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import {Welcome} from './Welcome';
-// import Philosophy from "./Philosophy";
-
-
 
 export default function CarouselComponent() {
     return (
         <div>
         <div className="carousel-wrapper"> 
-            <Carousel>
+            <Carousel infiniteLoop useKeyboardArrows autoPlay>
                 <div>
                     <img src="../img4.jpg" alt=""></img>
                     <p className="legend"></p>

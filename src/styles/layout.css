@@ -10,12 +10,10 @@ body {
 }
 
 
-.container {
- 
+.container { 
 width: 100%;
 height:100%;
 margin: 0;
-
 box-sizing: border-box;
 position: relative;
 min-height: 100%;
@@ -31,7 +29,7 @@ padding-bottom: 80px;
   letter-spacing: 1px;
   margin: 20px 0;
   padding: 5px;
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
   height: 100%;
 
@@ -83,7 +81,7 @@ h2 span {
 .columnRight{
   float: left;
   height: max-content;
-  width: 65%;
+  width: 70%;
   text-align: justify;
   text-justify: inter-word;
   font:14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -182,7 +180,7 @@ h2 span {
     
 }
   
-    .roundabout-holder {
+    /* .roundabout-holder {
       height:5em;
     }
     .roundabout-moveable-item {
@@ -206,7 +204,7 @@ h2 span {
     }
     /* #gallery li {
 
-    } */
+    } */ */
 
     .relative {
       position:relative
@@ -238,16 +236,11 @@ h2 span {
 
 
     .imgframe
-    { background: whitesmoke;
-    padding:12px;
+    { background: rgb(212, 207, 207);
+    padding:30px;
     border:1px solid #999; }
 
-    /* .col1, .col2, .cols {
-      float:left;
-      align-content: center;
-    } */
     .col1 {
-      /* width:310px; */
       width: 50%;
       padding: 0px;
       text-align: left;
@@ -255,7 +248,8 @@ h2 span {
       font-family: 14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       align-content: stretch;
       font-weight:normal;
-      /* background-color:#aaa;     */
+      padding-bottom: 80px;
+    
     }
 
     .col2 {
@@ -266,8 +260,8 @@ h2 span {
       text-align:left;
       vertical-align: top;
       font-weight:normal;
-      /* background-color:#bbb; */
-      
+      padding-bottom: 80px;
+     
     }
 
     #homeTable{
@@ -278,11 +272,13 @@ h2 span {
       font-family:14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align:center;
       vertical-align: top;
+    
+      padding: 1rem 4rem;
       
       
     }
     .pad {
-      padding:0 5px
+      padding:0 10px
     }
     
     .textwrapper {
@@ -299,6 +295,15 @@ h2 span {
       padding-left:67px
     }
   
- 
+ .contactMe{
+   background-color: lightgray;
+ }
+
+ .logo {
+	align-content: center;
+  widows: 200px;
+	height:70px;
+	
+}
 
 
