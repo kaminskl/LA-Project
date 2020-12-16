@@ -300,10 +300,12 @@ h2 span {
  }
 
  .logo {
-	align-content: center;
+  align-content: center;
+  text-align: initial;
   widows: 200px;
 	height:70px;
-	
+  padding: 0px;
+  vertical-align: middle;
 }
 
 
