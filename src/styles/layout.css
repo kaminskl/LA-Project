@@ -1,6 +1,7 @@
 body {
   min-height: 100%;
   height: 100%;
+  
 
 }
 
@@ -18,6 +19,8 @@ box-sizing: border-box;
 position: relative;
 min-height: 100%;
 padding-bottom: 80px;
+font:14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 
@@ -32,6 +35,7 @@ padding-bottom: 80px;
   width: 75%;
   margin: 0 auto;
   height: 100%;
+  font:14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -41,8 +45,8 @@ h2 {
 	color:black;
 	padding:1px 0 17px 10px;
   letter-spacing:-1px;
-  font:26px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  font:25px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 span {
 	color:#13c5ff
@@ -95,8 +99,7 @@ h2 span {
   width: 25%;
   text-align: right;
   margin-left: 3.5%;
-  font-size: 40px;
-  font:34px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font:33px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -151,6 +154,8 @@ h2 span {
   -webkit-transform: scale(0);
           transform: scale(0);
   font-size: 20px;
+  
+  
   
  
 }
@@ -245,7 +250,6 @@ h2 span {
       padding: 0px;
       text-align: left;
       font-style: normal;
-      font-family: 14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       align-content: stretch;
       font-weight:normal;
       padding-bottom: 80px;
@@ -255,7 +259,6 @@ h2 span {
     .col2 {
       padding: 0px;
       width: 50%;
-      font-family: 14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       align-content: stretch;
       text-align:left;
       vertical-align: top;
@@ -269,7 +272,7 @@ h2 span {
       margin-right: auto;
       width: 800px;
       padding:0 5px;
-      font-family:14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font:14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align:center;
       vertical-align: top;
     

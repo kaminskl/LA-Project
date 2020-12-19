@@ -23,7 +23,7 @@ export default function Contact() {
             <label>E-mail:   </label><br/>
                <input style={typeText} /><br/><br/>
             <label for="subject">Message</label><br/>           
-            <textarea  style={divStyle} id="subject" name="subject" placeholder="Write something.." ></textarea>
+            <textarea  style={divStyle} id="subject" name="subject" placeholder="Write something." ></textarea>
             <br/><br/>
             <div export default Button >
             <div className="mb-2">

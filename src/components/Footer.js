@@ -1,14 +1,14 @@
 import React from 'react'
 
 export default function Footer() {
-	const phoneNumber = '3330-3333-991';
+	const phoneNumber = '+604 365 45 91';
 	
 	return (
       <footer className="page-footer">
-        <h4>Contact Us</h4>
+        <h4>Contact:</h4>
         <ul>
           <li>
-          LoriAnn@hotmail.com
+          Loriannkaminska@hotmail.com
           </li>
           <li>
           {phoneNumber}
@@ -17,3 +17,4 @@ export default function Footer() {
       </footer>
     )
 }
+
